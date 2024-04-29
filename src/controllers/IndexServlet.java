@@ -18,13 +18,13 @@ import utils.DBUtil;
  * Servlet implementation class tsk_IndexServlet
  */
 @WebServlet("/index")
-public class tsk_IndexServlet extends HttpServlet {
+public class IndexServlet extends HttpServlet {
     private static final long serialVersionUID = 1L;
 
     /**
      * @see HttpServlet#HttpServlet()
      */
-    public tsk_IndexServlet() {
+    public IndexServlet() {
         super();
         // TODO Auto-generated constructor stub
     }
